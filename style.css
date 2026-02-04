@@ -1,0 +1,121 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* PAGE */
+body {
+  background: linear-gradient(135deg, #eef2ff, #f8fafc);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* LAYOUT */
+.container {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+/* FORM CARD */
+form {
+  background: #ffffff;
+  padding: 28px 30px;
+  width: 320px;
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1e293b;
+  letter-spacing: 0.5px;
+}
+
+/* INPUTS */
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #334155;
+  margin-top: 12px;
+  display: block;
+}
+
+input {
+  width: 100%;
+  padding: 10px 12px;
+  margin-top: 6px;
+  border-radius: 8px;
+  border: 1px solid #cbd5f5;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+}
+
+/* BUTTON */
+button {
+  margin-top: 18px;
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  background: linear-gradient(135deg, #6366f1, #4f46e5);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(79, 70, 229, 0.4);
+}
+
+/* USER DETAILS CARD */
+.card {
+  width: 340px;
+  padding: 24px;
+  margin: 15px;
+  border-radius: 16px;
+  background: linear-gradient(145deg, #fff7ed, #ffedd5);
+  border-left: 6px solid #fb923c;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* CARD TITLE */
+.card h3 {
+  margin-bottom: 16px;
+  font-size: 20px;
+  color: #9a3412;
+}
+
+/* CARD DATA */
+.card p {
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #374151;
+}
+
+.card p strong {
+  color: #7c2d12;
+}
+
+/* EMPTY STATE LOOK */
+.card span {
+  color: #6b7280;
+  font-style: italic;
+}
